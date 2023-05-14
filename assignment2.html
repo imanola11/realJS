@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>WRITE WITH COPIOUS EXAMPLES,EXPLAIN THE SIMILARITIES AND DIFFERENCES BETWEEN CONST,VAR,LET IN JAVASCRIPT</h4>
+    <P>The similarities between CONST,VAR,LET in JavaScript are</P>
+    <ol>
+        <li>These three keyword in JavaScript are used for declearing variables</li>
+        <li>They are all used to store values</li>
+        <li>They can all be used within a function,loop,and other block of code</li>
+    </ol>
+    <p>The diffrences between CONST,VAR,LET in JavaScript are</p>
+    <ol>
+        <li>VAR was the first keyword in declearing variables ,one of the maib diffrences between VAR and other keywords is that it can be redecleared (variable mutation).</li>
+        <li>LET is one of the new keywords created what makes it diffrent from others is that it cannot be redecleared but it can be reassigned</li>
+        <li>CONST is use to store valued that cannot be changed</li>
+    </ol>
+    <h4>Examples of the diffrences include</h4>
+    <p> 
+     (1) VAR EXAMPLE<br> <br>
+    <.script.> <br>
+        Var myName="iman"; <br>
+        var myName="ola" <br>
+        myName="Ola"; <br>
+        alert (myName); <br>
+    <./script> </p>
+    <p>NOTE: This shows in this example that VAR can be redeclearedand be reassigned.</p>
+
+    (2) LET EXAMPLE <br><br>
+    <.script.> <br>
+    LET myName="iman"; <br>
+    myName="Ola"; <br>
+    alert (myName); <br>
+<./script> </p>
+<p>NOTE: This shows in this example that LET can only be reassigned and cannot be redecleared.</p>
+
+    (3) CONST EXAMPLE
+    <.script> <br>
+        const retireAge=65; <br>
+        const currentAge=prompt('how old are you'); <br>
+        const yearLeft=retireAge-currentAge; <br>
+        alert(`you have ${yearLeft} until retirement`); <br>
+    <./script>
+   <p>NOTE:In this example it indicate that CONST stores a value and it cannot be changed.</p>
+</body>
+</html>
